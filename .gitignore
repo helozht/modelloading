@@ -1,2 +1,5 @@
 # Ignore files ending with .user
 *.user
+
+# Ignore build directory
+build/
