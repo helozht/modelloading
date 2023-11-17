@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>default_diffuse.png</file>
+        <file>default_specular.png</file>
+    </qresource>
+</RCC>

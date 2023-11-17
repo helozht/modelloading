@@ -1,0 +1,12 @@
+Source: modelloading
+Section: utils
+Priority: optional
+Maintainer: zht <zht@helozht@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
+Package: modelloading
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: For test
+ Try building a deb package

@@ -1,0 +1,2 @@
+libs/* /usr/lib/modelloading/
+modelloading-libraries.conf /etc/ld.so.conf.d/
