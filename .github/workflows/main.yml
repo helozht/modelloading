@@ -8,11 +8,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: show PWD
-      run: pwd
+    - name: show ll
+      run: ll
 
     - name: Install build dependencies
-      run: sudo apt-get install -y devscripts debhelper qt5-qmake
+      run: sudo apt-get install -y devscripts debhelper qt5-qmake libqt5gui5 libqt5widgets5 libqt5core5a
       
     - name: try pack
       run: debuild -us -uc
